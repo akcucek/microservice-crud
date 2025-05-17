@@ -12,7 +12,7 @@
 	<artifactId>config-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>config-service</name>
-	<description>config server projrct in spring boot</description>
+	<description>config server project in spring boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -38,6 +38,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
